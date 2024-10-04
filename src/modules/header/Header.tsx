@@ -1,4 +1,5 @@
 import Logo from '../../components/logo/Logo'
+import GitHubIcon from '../../components/gitHubIcon/GitHubIcon';
 import styles from './Header.module.css'
 
 function Header() {
@@ -9,7 +10,7 @@ function Header() {
       <ul className={styles['main-nav__list']}>
         <li className={styles['nav-list__item']}>
           <a href="https://github.com/ministrov" target='_blank' className={styles['nav-list__link']}>
-            <img src="../../assets/github.svg" width={23} height={23}  alt="Github logo picture" />
+            <GitHubIcon/>
           </a>
         </li>
       </ul>

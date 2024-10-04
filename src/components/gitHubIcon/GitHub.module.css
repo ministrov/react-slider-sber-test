@@ -1,0 +1,7 @@
+.github-icon {
+  fill: var(--light-blue-100);
+}
+
+.github-icon:hover {
+  opacity: 0.8;
+}

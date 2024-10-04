@@ -1,8 +1,11 @@
+// import Slide from '../slide/Slide'
 import './SlideList.module.css'
 
 function SlideList() {
   return (
-    <div>SlideList</div>
+    <div>
+      {/* <Slide slide={}/> */}
+    </div>
   )
 }
 
