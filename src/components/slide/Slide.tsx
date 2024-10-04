@@ -13,7 +13,7 @@ function Slide({ slide }: SlideProps) {
           {slide.title}
         </div>
         <div className={styles['slide__image']}>
-          <img src={slide.image} alt="#" loading='lazy' />
+          <img src={slide.image} width={100} height={100} alt={slide.title} loading='lazy' />
         </div>
         <div className={styles['slide__description']}>
           {slide.description}

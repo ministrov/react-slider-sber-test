@@ -1,12 +1,15 @@
 import SlideList from '../../components/slideList/SlideList'
 import Navigation from '../../components/navigation/Navigation'
-import './Main.module.css'
+import {slides} from '../../utils/data'
+import styles from './Main.module.css'
+
+console.log(slides);
 
 function Main() {
   return (
-    <div className='main'>
-      <div className="main__row">
-        <SlideList />
+    <div className={styles['main']}>
+      <div className={styles['main__row']}>
+        <SlideList slides={slides} currentSlide={1} />
         <Navigation />
       </div>
     </div>

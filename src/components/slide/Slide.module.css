@@ -1,12 +1,7 @@
 .slide {
-  background-color: purple;
-}
-
-.slide {
-    width: 50vw;
-    height: 50vh;
-    background-color: #e8f5e9;
-    padding: 10px;
+  height: 60vh;
+  padding: 10px;
+  background-color: var(--light-blue-100);
 }
 
 .slide__column {
@@ -21,12 +16,12 @@
   font-family: "Open Sans", sans-serif;
   font-size: 24px;
   font-weight: 500;
-  color: #1b5e20;
+  color: var(--white);
 }
 
 .slide__image img {
-  width: 25vw;
-  height: 25vh;
+  width: 30vw;
+  height: 30vh;
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
@@ -35,7 +30,7 @@
   font-family: inherit;
   font-size: 18px;
   font-weight: 500;
-  color: #4caf50;
+  color: var(--white);
 }
 
 .slide__column {
