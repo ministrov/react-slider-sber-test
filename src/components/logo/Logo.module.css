@@ -1,0 +1,33 @@
+.logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: color .3s;
+}
+
+.logo__link {
+  width: 5rem;
+  height: 5rem;
+  overflow: hidden;
+  margin-right: 1.5rem;
+  border-radius: 50px;
+  background-color: var(--light-blue-100);
+}
+
+.logo__name {
+  display: block;
+  padding: 1em 1em;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--light-blue-100);
+  border: 2px solid var(--light-blue-100);
+  border-radius: 6px;
+  transition: color .3s ease-in-out, border .3s ease-in-out;
+}
+
+.logo__name:hover {
+  color: var(--light-blue-200);
+  opacity: 0.8;
+  border: 2px solid var(--light-blue-200);
+}

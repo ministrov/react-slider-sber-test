@@ -1,6 +1,18 @@
+:root {
+  --white: #fff;
+  --deep-black: #000;
+  --deep-black-100: #171718;
+  --deep-black-200: #26292d;
+  --light-blue-100: #0062b9;
+  --light-blue-200: #60a5fa;
+  --light-grey: #777;
+
+  /* Header */
+  --header-bg: var(--white);
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  height: 100vh;
 }

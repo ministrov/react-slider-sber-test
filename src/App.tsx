@@ -1,18 +1,17 @@
+import Header from './modules/header/Header'
+import Main from './modules/main/Main'
 import './App.css'
 
 function App() {
-  const apple: string = 'apple';
+  // const apple: string = 'apple';
 
-  const generateArray = (length: number) => [...Array.from(Array(length).keys())];
+  // const generateArray = (length: number) => [...Array.from(Array(length).keys())];
 
   return (
-    <div>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis repellendus nesciunt recusandae exercitationem accusamus animi atque dolorum voluptas, voluptatum ipsam et reprehenderit. Laudantium.
-
-      <p>{apple}</p>
-
-      {generateArray(12)}
-    </div>
+    <>
+      <Header />
+      <Main />
+    </>
   )
 }
 
