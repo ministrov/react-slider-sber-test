@@ -1,18 +1,13 @@
 import { useEffect, useState } from 'react';
 import Navigation from '../../components/navigation/Navigation';
 import SlideList from '../../components/slideList/SlideList';
-import { slides } from '../../utils/data'
-import styles from './Main.module.css'
+import { slides } from '../../utils/data';
 import { ISlide } from '../../utils/types';
-
-// console.log(data);
-console.log(slides);
+import styles from './Main.module.css';
 
 function Main() {
   const [slidesState, setSlidesState] = useState<ISlide[]>([]);
   const [currentSlide, setCurrentSlide] = useState<number>(1);
-
-  console.log(slidesState);
 
   useEffect(() => {
     setSlidesState(slides);
