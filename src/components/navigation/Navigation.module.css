@@ -18,3 +18,59 @@
   border: 2px solid var(--light-blue-100);
   border-radius: 8px;
 }
+
+.navigation__btn--previous {
+  background-color: white;
+}
+
+.navigation__btn--previous:hover {
+  scale: 1.1;
+  transition: 0.4s;
+}
+
+.navigation__btn--previous:not(:hover) {
+  scale: 1;
+  transition: 0.4s;
+}
+
+.navigation__btn--start {
+  background-color: white;
+}
+
+.navigation__btn--start:hover {
+  scale: 1.1;
+  transition: 0.4s;
+}
+
+.navigation__btn--start:not(:hover){
+  scale: 1;
+  transition: 0.4s;
+}
+
+.navigation__btn--stop {
+  background-color: white;
+}
+
+.navigation__btn--stop:hover {
+  scale: 1.1;
+  transition: 0.4s;
+}
+
+.navigation__btn--stop:not(:hover) {
+  scale: 1;
+  transition: 0.4s;
+}
+
+.navigation__btn--next {
+  background-color: white;
+}
+
+.navigation__btn--next:hover {
+  scale: 1.1;
+  transition: 0.4s;
+}
+
+.navigation__btn--next:not(:hover) {
+  scale: 1;
+  transition: 0.4s;
+}
